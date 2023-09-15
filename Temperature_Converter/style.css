@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #363434;
+    width: 95%;
+    text-align: center;
+    padding:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#header{
+    font-size:7vh;
+    word-wrap: break-word;
+    padding-top: 10vh;
+    color: #fff;
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    padding:6rem;
+
+    
+}
+
+.container div{
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    height:25vh;
+    min-width: 25vh;
+    text-align: center;
+    color: #fff;
+}
+.box1{
+    background-color: #ff4040;
+}
+
+.box2{
+    background-color: #4070ff;
+}
+.box3{
+    background-color: #6bf951;
+}
+
+.container div h1{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    font-size: 20vh;
+    z-index: 0;
+    pointer-events: none;
+}
+.container .box1 h1{
+    color: #fe5050;
+}
+
+.container .box2 h1{
+    color:#527bf5
+}
+.container .box3 h1{
+    color: #83fc6e;
+    padding-left:30px;
+    
+}
+
+
+
+.container h2, .container input{
+    position: relative;
+
+}
+
+.container h2{
+    
+    font-size: 25px;
+    padding-top:30px;
+    
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container input{
+    padding-top: 30px;
+    border: none;
+    background: none;
+    color: aliceblue;
+    text-align: center;
+    width:7rem;
+    height: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.container input:focus{
+    outline: none;
+}
