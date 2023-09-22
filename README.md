@@ -1,5 +1,7 @@
 # Frontend_Projects
 
+
+
 class Solution {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> list=new ArrayList<>();
