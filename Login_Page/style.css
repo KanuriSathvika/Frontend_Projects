@@ -69,7 +69,7 @@ background-color: transparent;
 .given_val:focus ~label, .given_val:valid~label  {
     top:-15px;
     font-size: 15px;
-    color:rgba(245, 224, 255, 0.929)
+    color:rgba(123, 123, 122, 0.929)
 
 }
 
